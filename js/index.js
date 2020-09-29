@@ -119,3 +119,6 @@ Array.from(navParent.children).forEach(el => {
         e.preventDefault()
     })
 })
+
+// stretch gsap
+gsap.to(".nav-container", {duration: 2, rotation: 5, x: 10})
